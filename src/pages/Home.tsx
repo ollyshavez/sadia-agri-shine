@@ -36,7 +36,7 @@ const Home = () => {
                 </Button>
               </Link>
               <Link to="/business">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-foreground text-lg px-8">
+                <Button size="lg" variant="outline" className="bg-white/20 backdrop-blur-sm text-white border-white hover:bg-white hover:text-foreground text-lg px-8">
                   View Business Model
                 </Button>
               </Link>

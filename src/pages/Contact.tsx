@@ -53,7 +53,7 @@ const Contact = () => {
                   <Phone className="w-8 h-8 text-secondary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">Call Us</h3>
-                <p className="text-muted-foreground">+250 XXX XXX XXX</p>
+                <p className="text-muted-foreground">+250 789 577 513</p>
               </Card>
               
               <Card className="p-6 text-center hover:shadow-xl transition-shadow">
