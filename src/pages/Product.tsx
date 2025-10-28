@@ -1,8 +1,9 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Sparkles, Shield, Droplets, Leaf, CheckCircle } from "lucide-react";
-import productJar from "@/assets/product-jar.jpg";
-import beforeAfter from "@/assets/before-after.jpg";
+import productLabel from "@/assets/real-product-label.jpg";
+import productOpen from "@/assets/real-product-open.jpg";
+import productMultiple from "@/assets/real-product-multiple.jpg";
 
 const Product = () => {
   return (
@@ -25,14 +26,25 @@ const Product = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
               <div className="animate-scale-in">
                 <img 
-                  src={productJar} 
-                  alt="SADIA AGRI PRO Banana Peel Shoe Polish" 
+                  src={productLabel} 
+                  alt="ASA Banana Peels Shoe Polish - Product Label with natural ingredients" 
                   className="rounded-2xl shadow-card w-full"
                 />
               </div>
               <div className="flex flex-col justify-center">
-                <h2 className="text-3xl font-bold mb-6">Why SADIA AGRI PRO is Your Shoes' Best Friend</h2>
+                <h2 className="text-3xl font-bold mb-6">ASA - Shoe Polish for Life</h2>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Made by Afissa Abijuru from SADIA Ltd in Musanze, Rwanda. 
+                  Our natural formula combines banana peels, beeswax, oil, charcoal, and oat flour.
+                </p>
                 <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="font-bold mb-1">100% Natural Ingredients</h4>
+                      <p className="text-muted-foreground">Banana peels, beeswax, natural oils, charcoal, and oat flour</p>
+                    </div>
+                  </div>
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
@@ -50,15 +62,8 @@ const Product = () => {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-bold mb-1">Water Resistant</h4>
-                      <p className="text-muted-foreground">Natural waxes create a protective barrier against moisture</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-bold mb-1">Pleasant Natural Scent</h4>
-                      <p className="text-muted-foreground">Light, natural aroma - no harsh chemical smell</p>
+                      <h4 className="font-bold mb-1">Eco-Friendly & Safe</h4>
+                      <p className="text-muted-foreground">Zero harmful chemicals, biodegradable, reduces agricultural waste</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -72,18 +77,32 @@ const Product = () => {
               </div>
             </div>
 
-            {/* Before & After */}
-            <div className="mb-20 bg-muted/30 rounded-2xl p-8">
-              <h2 className="text-3xl font-bold text-center mb-8">See The Difference</h2>
-              <img 
-                src={beforeAfter} 
-                alt="Before and After Comparison" 
-                className="rounded-xl shadow-card w-full"
-              />
-              <p className="text-center text-muted-foreground mt-6">
-                Left: Before polish application | Right: After SADIA AGRI PRO treatment
-              </p>
+            {/* Product Gallery */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+              <div className="bg-card rounded-2xl p-6 shadow-card">
+                <img 
+                  src={productOpen} 
+                  alt="ASA Shoe Polish - Open container showing dark polish texture" 
+                  className="rounded-xl w-full mb-4"
+                />
+                <h3 className="text-xl font-bold mb-2">Rich, Dark Formula</h3>
+                <p className="text-muted-foreground">
+                  Our unique blend creates a smooth, easy-to-apply polish that penetrates deep into leather.
+                </p>
+              </div>
+              <div className="bg-card rounded-2xl p-6 shadow-card">
+                <img 
+                  src={productMultiple} 
+                  alt="Multiple ASA Shoe Polish containers showing product packaging" 
+                  className="rounded-xl w-full mb-4"
+                />
+                <h3 className="text-xl font-bold mb-2">Quality Packaging</h3>
+                <p className="text-muted-foreground">
+                  Packaged in durable containers to maintain freshness and quality of our natural ingredients.
+                </p>
+              </div>
             </div>
+
 
             {/* How It Works */}
             <div className="mb-20">
