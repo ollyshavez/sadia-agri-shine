@@ -26,7 +26,7 @@ const About = () => {
                   are often expensive, imported, and contain harsh chemicals.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mt-4">
-                  Our founder, Sadia, saw an opportunity to solve both problems. Through research and innovation, 
+                  Our founder, Afissa ABIJURU, saw an opportunity to solve both problems. Through research and innovation, 
                   we discovered that banana peels contain natural oils and compounds that are perfect for leather care. 
                   Today, we're proud to offer a 100% natural, locally-made shoe polish that performs as well as 
                   international brands while supporting our communities and protecting our environment.
@@ -119,10 +119,10 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6 text-foreground">Meet Our Founder</h2>
               <div className="md:flex gap-8 items-start">
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-2">Sadia</h3>
+                  <h3 className="text-2xl font-bold mb-2">Afissa ABIJURU</h3>
                   <p className="text-primary mb-4">Founder & CEO</p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Sadia is a passionate entrepreneur and environmental advocate from Rwanda. With a background in 
+                    Afissa ABIJURU is a passionate entrepreneur and environmental advocate from Rwanda. With a background in 
                     agricultural sciences and a vision for sustainable development, she founded SADIA AGRI PRO to 
                     demonstrate that business success and environmental responsibility can go hand in hand. Her 
                     innovative approach to waste valorization has earned recognition from local and international 
