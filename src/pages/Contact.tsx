@@ -45,7 +45,7 @@ const Contact = () => {
                   <Mail className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">Email Us</h3>
-                <p className="text-muted-foreground">info@sadiaagripro.rw</p>
+                <p className="text-muted-foreground">abijuruafissa@gmail.com</p>
               </Card>
               
               <Card className="p-6 text-center hover:shadow-xl transition-shadow">
@@ -134,7 +134,7 @@ const Contact = () => {
               </p>
               <Button size="lg" className="bg-white text-primary hover:bg-white/90">
                 <Mail className="w-4 h-4 mr-2" />
-                partnerships@sadiaagripro.rw
+                abijuruafissa@gmail.com
               </Button>
             </div>
           </div>
